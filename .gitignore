@@ -1,0 +1,39 @@
+# ===== Maven =====
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===== Java 编译产物 =====
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+
+# ===== IDE =====
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+*.log
+
+# ===== 日志 =====
+logs/
+log/
+*.log.*
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== 临时 =====
+*.tmp
+*.bak
+*~

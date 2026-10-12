@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: form-app
+  profiles:
+    active: dev
